@@ -19,7 +19,7 @@ while n<=20:
 
 fc,dol,eur =0,0.65,1
 while eur<=10:
-      fc=fc+1
+      fc=fc+
       fc,dol,eur=dol,fc+dol,dol+0.50 
       print(f"{fc} fc =  {dol} $ = {eur} £")
 
