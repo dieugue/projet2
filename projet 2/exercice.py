@@ -110,4 +110,5 @@ while a<25:
  a = a + 1
  b = a % 7
  print(a, jour[b])
+ print(jour)
 
