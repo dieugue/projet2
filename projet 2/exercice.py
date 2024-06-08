@@ -111,3 +111,10 @@ while a<25:
  b = a % 7
  print(a, jour[b])
 
+
+semaine = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi']
+num=[1,2,3,4,5,6,7]
+for i in range(1,7):
+      
+      Nombre_j=semaine[::i]
+      print(Nombre_j[:],num)
