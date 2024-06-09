@@ -119,14 +119,13 @@ for i in range(1,7):
       
       Nombre_j=semaine[::i]
       print(Nombre_j[:],num)
-#exercice sur le foncton avec des arguments
-def table(base):
-      affichage=list()
-      n=1
-      while n<10:          
-            nobre=n*base
-            affichage.append(nobre)
-            n=n+1
-      return affichage()     
-ta9 = table(9)
-print(ta9)
+from turtle import*
+reset()
+n=1
+while n<=8:
+      left(60)
+      forward(100)
+      color('red')
+      n+=1
+
+
